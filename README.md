@@ -2,7 +2,7 @@
 
 [![Open Issues](https://img.shields.io/github/issues-raw/UdL-EPS-SoftArch/angular-template?logo=github)](https://github.com/orgs/UdL-EPS-SoftArch/projects/12)
 [![CI/CD](https://github.com/UdL-EPS-SoftArch/angular-template/actions/workflows/ci-cd.yml/badge.svg)](https://github.com/UdL-EPS-SoftArch/angular-template/actions)
-[![Heroku App Status](https://heroku-shields.herokuapp.com/angular--template)](https://angular--template.herokuapp.com)
+[![CypressE2E](https://img.shields.io/endpoint?url=https://dashboard.cypress.io/badge/simple/4isjgp&style=flat&logo=cypress)](https://dashboard.cypress.io/projects/4isjgp/runs)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.3.
 
