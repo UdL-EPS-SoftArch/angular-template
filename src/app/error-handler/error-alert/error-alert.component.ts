@@ -11,7 +11,7 @@ export class ErrorAlertComponent implements OnInit {
   private ALERT_TIMEOUT = 10000;
   closed: boolean;
   errorMessage: string;
-  timerId: number;
+  timerId: NodeJS.Timeout;
 
   constructor(private errorMessageService: ErrorMessageService,
               private ngZone: NgZone) {
