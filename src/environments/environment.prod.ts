@@ -1,4 +1,4 @@
 export const environment = {
   production: true,
-  API: '${API_URL}'
+  API: 'https://spring-template.fly.dev'
 };
