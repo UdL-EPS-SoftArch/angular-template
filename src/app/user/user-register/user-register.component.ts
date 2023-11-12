@@ -23,7 +23,6 @@ export class UserRegisterComponent implements OnInit {
   }
 
   onSubmit(): void {
-    this.user.username = this.user.id;
     this.userService.createResource({ body: this.user }).subscribe(
       () => {
         this.authenticationBasicService.login(this.user.id, this.user.password).subscribe(

@@ -15,6 +15,7 @@ export class User extends Resource {
   constructor(values: object = {}) {
     super();
     Object.assign(this as any, values);
+    this.id = this.username;
   }
 
   getRoles(): string[] {
