@@ -3,7 +3,6 @@ import { HateoasResource, Resource } from '@lagoshny/ngx-hateoas-client';
 
 @HateoasResource('users')
 export class User extends Resource {
-  id: string;
   username: string;
   email: string;
   authorities: Authority[] = [];
@@ -15,7 +14,6 @@ export class User extends Resource {
   constructor(values: object = {}) {
     super();
     Object.assign(this as any, values);
-    this.id = this.username;
   }
 
   getRoles(): string[] {

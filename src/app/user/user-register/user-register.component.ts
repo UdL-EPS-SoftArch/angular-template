@@ -25,8 +25,8 @@ export class UserRegisterComponent implements OnInit {
   onSubmit(): void {
     this.userService.createResource({ body: this.user }).subscribe(
       () => {
-        this.authenticationBasicService.login(this.user.id, this.user.password).subscribe(
-            (user: User) => this.router.navigate(['users', user.id]));
+        this.authenticationBasicService.login(this.user.username, this.user.password).subscribe(
+            (user: User) => this.router.navigate(['users', user.username]));
       });
   }
 
